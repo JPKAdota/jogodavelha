@@ -1,4 +1,4 @@
-# jogodavelha
+# Jogo da velha
 Criando Jogo da velha
 
 Meu primeiro jogo desenvolvido!
