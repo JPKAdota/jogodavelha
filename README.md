@@ -1,8 +1,6 @@
 # Jogo da velha
-Criando Jogo da velha
-
-Meu primeiro jogo desenvolvido!
+## Meu primeiro jogo desenvolvido sozinho!
 
 Tecnologia usada:
-n/-Pyhton 3.10
-n/-Tkinter
+- Pyhton 3.10
+- Tkinter
