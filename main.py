@@ -31,6 +31,9 @@ frame_cima.grid(row=0, column=0, sticky=NW, padx=10, pady=10)
 frame_baixo = Frame(janela, width=240, height=300, bg=fundo, relief="flat")
 frame_baixo.grid(row=1, column=0, sticky=NW)
 
+# Criando Lógica do App -------------------------------------------
+
+
 # Configurando o frame de cima ---------------------------------------
 app_x = Label(frame_cima, text='x', height=1, relief='flat', anchor='center', font='Ivy 40 bold', bg=co1, fg=co7)
 app_x.place(x=25, y=10)
