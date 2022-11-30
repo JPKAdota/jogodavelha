@@ -46,10 +46,55 @@ app_o = Label(frame_cima, text='o', height=1, relief='flat', anchor='center', fo
 app_o.place(x=170, y=10)
 app_o = Label(frame_cima, text='Jogador 2', height=1, relief='flat', anchor='center', font='Ivy 7 bold', bg=co1, fg=co0)
 app_o.place(x=165, y=70)
-app_o_pontos = Label(frame_cima, text='0', height=1, relief='flat', anchor='center', font='Ivy 30 bold', bg=co1, fg=co0)
+app_o_pontos = Label(frame_cima, text="0", height=1, relief='flat', anchor='center', font='Ivy 30 bold', bg=co1, fg=co0)
 app_o_pontos.place(x=130, y=22)
 
 # Configurando o frame de baixo ---------------------------------------
 
+# Linhas verticais -------------------------------------------
+
+app_linha_vert1 = Label(frame_baixo, text='', height=23, relief='flat', pady=5, anchor='center', font='Ivy 5 bold', bg=co0, fg=co0)
+app_linha_vert1.place(x=90, y=15)
+app_linha_vert2 = Label(frame_baixo, text='', height=23, relief='flat', pady=5, anchor='center', font='Ivy 5 bold', bg=co0, fg=co0)
+app_linha_vert2.place(x=160, y=15)
+
+# Linhas horizontais -------------------------------------------
+
+app_linha_hor1 = Label(frame_baixo, text='', width=190, relief='flat', padx=2, anchor='center', font='Ivy 1 bold', bg=co0, fg=co0)
+app_linha_hor1.place(x=30, y=63)
+app_linha_hor2 = Label(frame_baixo, text='', width=190, relief='flat', padx=2, anchor='center', font='Ivy 1 bold', bg=co0, fg=co0)
+app_linha_hor2.place(x=30, y=123)
+
+# Botões linha 0 -------------------------------------------
+
+b_0 = Button(frame_baixo, text='', width=3, height=1, font='Ivy 17 bold', overrelief=RIDGE, bg=fundo, fg=co7, relief='flat')
+b_0.place(x=35, y=15)
+b_1 = Button(frame_baixo, text='', width=3, height=1, font='Ivy 17 bold', overrelief=RIDGE, bg=fundo, fg=co7, relief='flat')
+b_1.place(x=103, y=15)
+b_2 = Button(frame_baixo, text='', width=3, height=1, font='Ivy 17 bold', overrelief=RIDGE, bg=fundo, fg=co7, relief='flat')
+b_2.place(x=173, y=15)
+
+# Botões linha 1 -------------------------------------------
+
+b1_0 = Button(frame_baixo, text='', width=3, height=1, font='Ivy 17 bold', overrelief=RIDGE, bg=fundo, fg=co7, relief='flat')
+b1_0.place(x=35, y=76)
+b1_1 = Button(frame_baixo, text='', width=3, height=1, font='Ivy 17 bold', overrelief=RIDGE, bg=fundo, fg=co7, relief='flat')
+b1_1.place(x=103, y=76)
+b1_2 = Button(frame_baixo, text='', width=3, height=1, font='Ivy 17 bold', overrelief=RIDGE, bg=fundo, fg=co7, relief='flat')
+b1_2.place(x=173, y=76)
+
+# Botões linha 2 -------------------------------------------
+
+b2_0 = Button(frame_baixo, text='', width=3, height=1, font='Ivy 17 bold', overrelief=RIDGE, bg=fundo, fg=co7, relief='flat')
+b2_0.place(x=35, y=140)
+b2_1 = Button(frame_baixo, text='', width=3, height=1, font='Ivy 17 bold', overrelief=RIDGE, bg=fundo, fg=co7, relief='flat')
+b2_1.place(x=103, y=140)
+b2_2 = Button(frame_baixo, text='', width=3, height=1, font='Ivy 17 bold', overrelief=RIDGE, bg=fundo, fg=co7, relief='flat')
+b2_2.place(x=173, y=140)
+
+# Botõe jogar -------------------------------------------
+
+b_jogar = Button(frame_baixo, text='jogar', width=10, height=1, font='Ivy 10 bold', overrelief=RIDGE, bg=fundo, fg=co0, relief='raised')
+b_jogar.place(x=85, y=210)
 
 janela.mainloop()
